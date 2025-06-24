@@ -1,185 +1,24 @@
-/* Reset & Base */
-
-* {
-
+body, html {
+  height: 100%;
   margin: 0;
-
   padding: 0;
-
-  box-sizing: border-box;
-
+  font-family: Arial, sans-serif;
 }
- 
-body {
 
-  font-family: 'Segoe UI', sans-serif;
 
-  background: #f4f4f4;
-
-  color: #222;
-
-}
- 
-section.block {
-
-  padding: 40px 20px;
-
-  text-align: center;
-
-}
- 
-h2 {
-
-  margin-bottom: 20px;
-
-}
- 
-.header, .footer {
-
-  padding: 40px 20px;
-
+.hero {
+  min-height: 100vh;
+  background: url('background.jpg') no-repeat center center / cover;
   color: white;
-
-  text-align: center;
-
-}
- 
-/* === CAR HEADER/FOOTER THEMES === */
- 
-/* Car 1 - Speed Lane */
-
-.car1 {
-
-  background: linear-gradient(to right, #1f1f1f, #4b4b4b);
-
+  padding-top: 60px; 
+  position: relative;
+  z-index: 1;
 }
 
-.car1-footer {
-
-  background: #2c2c2c;
-
-}
- 
-/* Car 2 - Garage Pro */
-
-.car2 {
-
-  background: #222;
-
-  display: flex;
-
-  justify-content: space-between;
-
-  align-items: center;
-
-  padding: 20px 40px;
-
-}
-
-.car2 img {
-
-  height: 40px;
-
-}
-
-.car2 nav a {
-
-  margin: 0 10px;
-
-  color: #fff;
-
-  text-decoration: none;
-
-  font-weight: bold;
-
-}
-
-.car2-footer {
-
-  background: #111;
-
-}
- 
-/* Car 3 - Asphalt Dark */
-
-.car3 {
-
-  background: url('https://images.unsplash.com/photo-1495420378468-78588a508652?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGlnaHQlMjB0cmFpbHxlbnwwfHwwfHx8MA%3D%3D') center center/cover no-repeat;
-
-  color: #3f3dc3;
-
-}
-
-.car3-footer {
-
-  background: #333;
-
-}
- 
-/* Car 4 - Showroom */
-
-.car4 {
-
-  background: linear-gradient(to right, #4e54c8, #8f94fb);
-
-}
-
-.car4-footer {
-
-  background: #3e3e92;
-
-}
- 
-/* Car 5 - Electric Edge */
-
-.car5 {
-
-  background: #0f0f0f;
-
-  color: #00ffcc;
-
-  text-shadow: 1px 1px 4px #000;
-
-}
-
-.car5-footer {
-
-  background: #1c1c1c;
-
-  color: #00ffcc;
-
-}
-
- 
-
-/* ===== CUSTOM NAV HEADER ===== */
-.custom-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #3366cc;
-  padding: 15px 30px;
-}
-
-.custom-header .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;
-}
-
-.custom-header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.custom-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  transition: opacity 0.2s;
-}
-
-.custom-header nav ul li a:hover {
-  opacity: 0.7;
+.lion-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #fcd34d;
+  object-fit: cover;
 }
