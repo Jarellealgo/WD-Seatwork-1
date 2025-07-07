@@ -10,7 +10,7 @@ body {
       rgba(255, 255, 255, 0.10) 100%
     ),
     #000 url('/assets/img/img4.png') no-repeat center center fixed;
-  background-size: 85% auto;
+  background-size: 100% auto;
   font-family: 'Arial Black', Arial, sans-serif;
   display: flex;
   flex-direction: column;
