@@ -1,4 +1,3 @@
-
     const wheel = document.getElementById('wheel-img');
     const centerArea = document.querySelector('.center-area');
 
