@@ -334,3 +334,40 @@ body {
   color: #000;
   width: 100px;
 }
+
+.performance-section {
+  align-items: flex-start;
+  padding: 10px 20px;
+}
+
+.performance-section .top-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.performance-section .brand {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #fff;
+  background: #333;
+  padding: 4px 12px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px #0005;
+}
+
+.performance-section .info {
+  display: flex;
+  gap: 20px;
+  font-size: 0.9em;
+  color: #ddd;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.performance-section .nav-links {
+  justify-content: center;
+}
