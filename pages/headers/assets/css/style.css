@@ -276,3 +276,28 @@ body {
 .nav-link:hover {
   color: #fff;
 }
+
+.garage-forum {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+}
+
+.garage-left .section-title {
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+.garage-right {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.btn-blue {
+  background: #2196f3;
+  color: #fff;
+}
