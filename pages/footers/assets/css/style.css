@@ -589,3 +589,7 @@ body {
 .nav-buttons button:hover {
   background: #e6b800;
 }
+
+.footer-title {
+  display: none;
+}
